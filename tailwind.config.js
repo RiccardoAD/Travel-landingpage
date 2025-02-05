@@ -16,5 +16,7 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    
+  ], // plugin per nascondere la barra di scorrimento
 }
