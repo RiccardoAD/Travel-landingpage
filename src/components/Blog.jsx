@@ -4,11 +4,11 @@ import imgBlog2 from '../assets/blog-photos/blog-photo-plane.png';
 import imgBlog3 from '../assets/blog-photos/blog-photo-palace.png';
 const Blogs = () => {
   return (
-    <div className="max-w-[90%] mx-auto">
+    <section className="max-w-[90%] mx-auto">
       <h1 className="text-center font-bold text-2xl xl:text-4xl pt-[72px] xl:pt-60 pb-10 xl:pb-20">Blogs</h1>
       <div className="grid grid-cols-1 xl:grid-cols-7 xl:grid-rows-4 space-y-4 xl:space-y-0 xl:gap-4 mx-auto">
         {/* Immagine principale grande */}
-        <div className="col-span-4 row-span-4 relative">
+        <article className="col-span-4 row-span-4 relative">
           <img
             src={imgBlog1}
             alt="Background Mountain"
@@ -22,9 +22,9 @@ const Blogs = () => {
               <span className="block">Mount Kilimanjaro</span>
             </h2>
           </div>
-        </div>
+        </article>
         {/* Prima immagine più piccola (sopra) */}
-        <div className="col-span-3 row-span-2 relative">
+        <article className="col-span-3 row-span-2 relative">
           <img
             src={imgBlog2}
             alt="Background Plane Travel"
@@ -36,9 +36,9 @@ const Blogs = () => {
               12 Things I’d Tell Any New Traveler
             </h2>
           </div>
-        </div>
+        </article>
         {/* Seconda immagine più piccola (sotto) */}
-        <div className="col-span-3 row-span-2 relative">
+        <article className="col-span-3 row-span-2 relative">
           <img
             src={imgBlog3}
             alt="Background Palace"
@@ -50,9 +50,9 @@ const Blogs = () => {
               The Ultimate Packing List for Female Travelers
             </h2>
           </div>
-        </div>
+        </article>
       </div>
-    </div>
+    </section>
   );
 };
 export default Blogs;

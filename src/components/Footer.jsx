@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { ReactComponent as FbLogo } from '../assets/social/Facebook.svg';
 import { ReactComponent as IgLogo } from '../assets/social/Instagram.svg';
 import { ReactComponent as LnLogo } from '../assets/social/LinkedIn.svg';

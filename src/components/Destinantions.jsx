@@ -4,7 +4,7 @@ import DestinationItem from './DestinationItem';
 import Dots from '../assets/icons/dots.svg';
 const Destinations = () => {
   // Stato per tenere traccia dell'elemento selezionato
-  const [selectedItem, setSelectedItem] = useState(null);
+  const [selectedItem, setSelectedItem] = useState(0);
   // Array di elementi del menu
   const menuItems = ['The Weekend Break', 'The Package Holiday', 'The Group Tour', 'Long Term Slow Travel'];
   return (
