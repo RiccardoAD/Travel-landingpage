@@ -6,8 +6,8 @@ import Destinations from './components/Destinations';
 import HappyCustomer from './components/HappyCustomer';
 import Navbar from './components/Navbar';
 import SearchBar from './components/Searchbar';
-
-
+import Footer from './components/Footer';
+import Blogs from './components/Blogs';
 
 function App() {
   return (
@@ -16,7 +16,9 @@ function App() {
       <SearchBar />
       <Cards />
       <Destinations />
+      <Blogs />
       <HappyCustomer />
+      <Footer />
     </div>
   );
 }
